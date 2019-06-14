@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/diagramm/ipshared/195f/hdl/ip_sha3v5_v1_0_S00_AXI.vhd" \
+"../../../bd/diagramm/ipshared/195f/src/user_types.vhd" \
+"../../../bd/diagramm/ipshared/195f/hdl/ip_sha3v5_v1_0.vhd" \
+"../../../bd/diagramm/ip/diagramm_ip_sha3v5_0_0/sim/diagramm_ip_sha3v5_0_0.vhd" \
+"../../../bd/diagramm/ip/diagramm_rst_ps7_0_250M_0/sim/diagramm_rst_ps7_0_250M_0.vhd" \
+"../../../bd/diagramm/sim/diagramm.vhd" \
+
+nosort
