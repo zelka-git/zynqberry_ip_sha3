@@ -36,9 +36,9 @@
   "../../../bd/diagramm/ip/diagramm_processing_system7_0_0/sim/diagramm_processing_system7_0_0.v" \
 -endlib
 -makelib ies_lib/xil_defaultlib \
-  "../../../bd/diagramm/ipshared/195f/hdl/ip_sha3v5_v1_0_S00_AXI.vhd" \
-  "../../../bd/diagramm/ipshared/195f/src/user_types.vhd" \
-  "../../../bd/diagramm/ipshared/195f/hdl/ip_sha3v5_v1_0.vhd" \
+  "../../../bd/diagramm/ipshared/867b/hdl/ip_sha3v5_v1_0_S00_AXI.vhd" \
+  "../../../bd/diagramm/ipshared/867b/src/user_types.vhd" \
+  "../../../bd/diagramm/ipshared/867b/hdl/ip_sha3v5_v1_0.vhd" \
   "../../../bd/diagramm/ip/diagramm_ip_sha3v5_0_0/sim/diagramm_ip_sha3v5_0_0.vhd" \
 -endlib
 -makelib ies_lib/lib_cdc_v1_0_2 \

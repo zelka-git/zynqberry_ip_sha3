@@ -19,9 +19,8 @@ INFO: [Project 1-454] Reading design checkpoint '/home/anzhelika/projekt/diplom/
 INFO: [Project 1-454] Reading design checkpoint '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.srcs/sources_1/bd/diagramm/ip/diagramm_processing_system7_0_0/diagramm_processing_system7_0_0.dcp' for cell 'diagramm_i/processing_system7_0'
 INFO: [Project 1-454] Reading design checkpoint '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.srcs/sources_1/bd/diagramm/ip/diagramm_rst_ps7_0_250M_0/diagramm_rst_ps7_0_250M_0.dcp' for cell 'diagramm_i/rst_ps7_0_250M'
 INFO: [Project 1-454] Reading design checkpoint '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.srcs/sources_1/bd/diagramm/ip/diagramm_auto_pc_0/diagramm_auto_pc_0.dcp' for cell 'diagramm_i/ps7_0_axi_periph/s00_couplers/auto_pc'
-INFO: [Netlist 29-17] Analyzing 1941 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 309 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-WARNING: [Netlist 29-43] Netlist 'diagramm_wrapper' is not ideal for floorplanning, since the cellview 'diagramm_ip_sha3v5_0_0_ip_sha3v5_v1_0_S00_AXI' defined in file 'diagramm_ip_sha3v5_0_0.edf' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-479] Netlist was created with Vivado 2018.2
 INFO: [Device 21-403] Loading part xc7z010clg225-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -35,9 +34,9 @@ INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-14 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+14 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 1697.977 ; gain = 447.676 ; free physical = 1537 ; free virtual = 3882
+link_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:25 . Memory (MB): peak = 1696.984 ; gain = 446.676 ; free physical = 155 ; free virtual = 2197
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
@@ -48,82 +47,82 @@ INFO: [DRC 23-27] Running DRC with 8 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1697.977 ; gain = 0.000 ; free physical = 1531 ; free virtual = 3877
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1696.984 ; gain = 0.000 ; free physical = 148 ; free virtual = 2191
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 127279357
+Ending Cache Timing Information Task | Checksum: 20e3135ff
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2133.523 ; gain = 435.547 ; free physical = 1128 ; free virtual = 3494
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:19 . Memory (MB): peak = 2133.531 ; gain = 435.547 ; free physical = 113 ; free virtual = 1787
 
 Starting Logic Optimization Task
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 15526a4a0
+Phase 1 Retarget | Checksum: 12aef9058
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.64 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1138 ; free virtual = 3513
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.62 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 118 ; free virtual = 1799
 INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Phase 2 Constant propagation | Checksum: a68cd8b0
+Phase 2 Constant propagation | Checksum: 1470f3e2e
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.88 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1138 ; free virtual = 3513
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.85 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 118 ; free virtual = 1799
 INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 8 cells
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: c7282ac7
+Phase 3 Sweep | Checksum: 20e318363
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
-INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 245 cells
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 113 ; free virtual = 1797
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 244 cells
 
 Phase 4 BUFG optimization
-Phase 4 BUFG optimization | Checksum: c7282ac7
+Phase 4 BUFG optimization | Checksum: 20e318363
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 113 ; free virtual = 1796
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
-Phase 5 Shift Register Optimization | Checksum: 1eb3863a8
+Phase 5 Shift Register Optimization | Checksum: 1204d11f0
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 108 ; free virtual = 1796
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 1eb3863a8
+Phase 6 Post Processing Netlist | Checksum: 1204d11f0
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 108 ; free virtual = 1796
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
-Ending Logic Optimization Task | Checksum: 1eb3863a8
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 108 ; free virtual = 1796
+Ending Logic Optimization Task | Checksum: 1204d11f0
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 108 ; free virtual = 1796
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
-Ending Power Optimization Task | Checksum: 1eb3863a8
+Ending Power Optimization Task | Checksum: 1204d11f0
 
-Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 107 ; free virtual = 1796
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 1eb3863a8
+Ending Final Cleanup Task | Checksum: 1204d11f0
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2133.523 ; gain = 0.000 ; free physical = 1135 ; free virtual = 3510
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2133.531 ; gain = 0.000 ; free physical = 107 ; free virtual = 1796
 INFO: [Common 17-83] Releasing license: Implementation
-30 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+30 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 2133.523 ; gain = 435.547 ; free physical = 1135 ; free virtual = 3510
+opt_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:23 . Memory (MB): peak = 2133.531 ; gain = 436.547 ; free physical = 106 ; free virtual = 1796
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2165.539 ; gain = 0.000 ; free physical = 1120 ; free virtual = 3498
+Write XDEF Complete: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2165.547 ; gain = 0.000 ; free physical = 115 ; free virtual = 1784
 INFO: [Common 17-1381] The checkpoint '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1/diagramm_wrapper_opt.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file diagramm_wrapper_drc_opted.rpt -pb diagramm_wrapper_drc_opted.pb -rpx diagramm_wrapper_drc_opted.rpx
 Command: report_drc -file diagramm_wrapper_drc_opted.rpt -pb diagramm_wrapper_drc_opted.pb -rpx diagramm_wrapper_drc_opted.rpx
@@ -147,49 +146,49 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1116 ; free virtual = 3494
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 134aac37b
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 112 ; free virtual = 1779
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: de301c3e
 
-Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1116 ; free virtual = 3494
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1116 ; free virtual = 3494
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 112 ; free virtual = 1779
+Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 112 ; free virtual = 1779
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 61e0d052
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e5c59278
 
-Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1104 ; free virtual = 3483
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 112 ; free virtual = 1768
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 12a034fb6
+Phase 1.3 Build Placer Netlist Model | Checksum: 14eefae6c
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1072 ; free virtual = 3453
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 149 ; free virtual = 1718
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 12a034fb6
+Phase 1.4 Constrain Clocks/Macros | Checksum: 14eefae6c
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1072 ; free virtual = 3453
-Phase 1 Placer Initialization | Checksum: 12a034fb6
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 149 ; free virtual = 1718
+Phase 1 Placer Initialization | Checksum: 14eefae6c
 
-Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2253.582 ; gain = 0.000 ; free physical = 1072 ; free virtual = 3453
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2253.590 ; gain = 0.000 ; free physical = 149 ; free virtual = 1718
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: d1b3641c
+Phase 2.1 Floorplanning | Checksum: 11b709ba6
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:04 . Memory (MB): peak = 2285.250 ; gain = 31.668 ; free physical = 1058 ; free virtual = 3439
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 2278.625 ; gain = 25.035 ; free physical = 132 ; free virtual = 1704
 
 Phase 2.2 Physical Synthesis In Placer
-INFO: [Physopt 32-76] Pass 1. Identified 1 candidate net for fanout optimization.
-INFO: [Physopt 32-81] Processed net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/start. Replicated 7 times.
-INFO: [Physopt 32-232] Optimized 1 net. Created 7 new instances.
-INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 7 new cells, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.05 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 1043 ; free virtual = 3426
-Netlist sorting complete. Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 1043 ; free virtual = 3426
+INFO: [Physopt 32-76] Pass 1. Identified 2 candidate nets for fanout optimization.
+INFO: [Physopt 32-81] Processed net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/start. Replicated 6 times.
+INFO: [Physopt 32-232] Optimized 1 net. Created 6 new instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 6 new cells, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 116 ; free virtual = 1692
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 116 ; free virtual = 1692
 INFO: [Physopt 32-46] Identified 1 candidate net for critical-cell optimization.
 INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
 INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
-Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 1043 ; free virtual = 3426
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 115 ; free virtual = 1692
 
 Summary of Physical Synthesis Optimizations
 ============================================
@@ -198,73 +197,73 @@ Summary of Physical Synthesis Optimizations
 -----------------------------------------------------------------------------------------------------------------------------
 |  Optimization       |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
 -----------------------------------------------------------------------------------------------------------------------------
-|  Very High Fanout   |            7  |              0  |                     1  |           0  |           1  |  00:00:00  |
+|  Very High Fanout   |            6  |              0  |                     1  |           0  |           1  |  00:00:00  |
 |  Critical Cell      |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
-|  Total              |            7  |              0  |                     1  |           0  |           2  |  00:00:00  |
+|  Total              |            6  |              0  |                     1  |           0  |           2  |  00:00:00  |
 -----------------------------------------------------------------------------------------------------------------------------
 
 
-Phase 2.2 Physical Synthesis In Placer | Checksum: 10212e3b6
+Phase 2.2 Physical Synthesis In Placer | Checksum: 192ef0e4a
 
-Time (s): cpu = 00:00:32 ; elapsed = 00:00:12 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1042 ; free virtual = 3425
-Phase 2 Global Placement | Checksum: 17664c4c7
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:12 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 115 ; free virtual = 1693
+Phase 2 Global Placement | Checksum: 16a79aec9
 
-Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1048 ; free virtual = 3431
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 120 ; free virtual = 1699
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 17664c4c7
+Phase 3.1 Commit Multi Column Macros | Checksum: 16a79aec9
 
-Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1048 ; free virtual = 3431
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:12 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 120 ; free virtual = 1699
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 15fba718b
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1a60966da
 
-Time (s): cpu = 00:00:36 ; elapsed = 00:00:13 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1045 ; free virtual = 3428
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:13 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 117 ; free virtual = 1698
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 11b7fc652
+Phase 3.3 Area Swap Optimization | Checksum: 1bc43c13d
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:13 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1045 ; free virtual = 3428
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:13 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 117 ; free virtual = 1698
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 11b7fc652
+Phase 3.4 Pipeline Register Optimization | Checksum: 1bc43c13d
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:13 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1045 ; free virtual = 3428
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:13 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 117 ; free virtual = 1698
 
 Phase 3.5 Timing Path Optimizer
-Phase 3.5 Timing Path Optimizer | Checksum: 11b7fc652
+Phase 3.5 Timing Path Optimizer | Checksum: 1bc43c13d
 
-Time (s): cpu = 00:00:37 ; elapsed = 00:00:13 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1045 ; free virtual = 3428
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:13 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 117 ; free virtual = 1698
 
 Phase 3.6 Fast Optimization
-Phase 3.6 Fast Optimization | Checksum: 14507b8e6
+Phase 3.6 Fast Optimization | Checksum: 1c5622ac4
 
-Time (s): cpu = 00:00:40 ; elapsed = 00:00:17 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1043 ; free virtual = 3426
+Time (s): cpu = 00:00:37 ; elapsed = 00:00:14 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 114 ; free virtual = 1696
 
 Phase 3.7 Small Shape Detail Placement
-Phase 3.7 Small Shape Detail Placement | Checksum: e338737a
+Phase 3.7 Small Shape Detail Placement | Checksum: 157c6c893
 
-Time (s): cpu = 00:00:48 ; elapsed = 00:00:23 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1029 ; free virtual = 3413
+Time (s): cpu = 00:00:49 ; elapsed = 00:00:25 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 111 ; free virtual = 1672
 
 Phase 3.8 Re-assign LUT pins
-Phase 3.8 Re-assign LUT pins | Checksum: f265d9e7
+Phase 3.8 Re-assign LUT pins | Checksum: 1585f0dc6
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:24 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1029 ; free virtual = 3413
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:25 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 111 ; free virtual = 1673
 
 Phase 3.9 Pipeline Register Optimization
-Phase 3.9 Pipeline Register Optimization | Checksum: f265d9e7
+Phase 3.9 Pipeline Register Optimization | Checksum: 1585f0dc6
 
-Time (s): cpu = 00:00:49 ; elapsed = 00:00:24 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1029 ; free virtual = 3413
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:25 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 111 ; free virtual = 1673
 
 Phase 3.10 Fast Optimization
-Phase 3.10 Fast Optimization | Checksum: 22044b94d
+Phase 3.10 Fast Optimization | Checksum: 1ea20e463
 
-Time (s): cpu = 00:01:05 ; elapsed = 00:00:35 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1006 ; free virtual = 3411
-Phase 3 Detail Placement | Checksum: 22044b94d
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:29 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 108 ; free virtual = 1671
+Phase 3 Detail Placement | Checksum: 1ea20e463
 
-Time (s): cpu = 00:01:05 ; elapsed = 00:00:35 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1006 ; free virtual = 3411
+Time (s): cpu = 00:01:01 ; elapsed = 00:00:30 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 108 ; free virtual = 1671
 
 Phase 4 Post Placement Optimization and Clean-Up
 
@@ -272,60 +271,59 @@ Phase 4.1 Post Commit Optimization
 INFO: [Timing 38-35] Done setting XDC timing constraints.
 
 Phase 4.1.1 Post Placement Optimization
-Post Placement Optimization Initialization | Checksum: 2395e41d4
+Post Placement Optimization Initialization | Checksum: 18c5f7fc9
 
 Phase 4.1.1.1 BUFG Insertion
-INFO: [Place 46-33] Processed net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/slv_reg50[31]_i_1_n_0, BUFG insertion was skipped due to placement/routing conflicts.
-INFO: [Place 46-33] Processed net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in[0][0][63]_i_1_n_0, BUFG insertion was skipped due to placement/routing conflicts.
-INFO: [Place 46-31] BUFG insertion identified 2 candidate nets, 0 success, 2 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
-Phase 4.1.1.1 BUFG Insertion | Checksum: 2395e41d4
+INFO: [Place 46-33] Processed net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/sel, BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-31] BUFG insertion identified 1 candidate nets, 0 success, 1 skipped for placement/routing, 0 skipped for timing, 0 skipped for netlist change reason.
+Phase 4.1.1.1 BUFG Insertion | Checksum: 18c5f7fc9
 
-Time (s): cpu = 00:01:12 ; elapsed = 00:00:37 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 1011 ; free virtual = 3415
-INFO: [Place 30-746] Post Placement Timing Summary WNS=-1.436. For the most accurate timing information please run report_timing.
-Phase 4.1.1 Post Placement Optimization | Checksum: 157bbe053
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:32 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 108 ; free virtual = 1678
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-1.597. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: 21c019dc5
 
-Time (s): cpu = 00:01:42 ; elapsed = 00:01:03 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 921 ; free virtual = 3419
-Phase 4.1 Post Commit Optimization | Checksum: 157bbe053
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 107 ; free virtual = 1664
+Phase 4.1 Post Commit Optimization | Checksum: 21c019dc5
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:03 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 921 ; free virtual = 3419
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 107 ; free virtual = 1664
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 157bbe053
+Phase 4.2 Post Placement Cleanup | Checksum: 21c019dc5
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:03 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 925 ; free virtual = 3423
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 106 ; free virtual = 1664
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 157bbe053
+Phase 4.3 Placer Reporting | Checksum: 21c019dc5
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:03 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 916 ; free virtual = 3423
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 105 ; free virtual = 1664
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 1225cad69
+Phase 4.4 Final Placement Cleanup | Checksum: 2c067bfa4
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:04 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 871 ; free virtual = 3406
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1225cad69
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 105 ; free virtual = 1664
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2c067bfa4
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:04 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 870 ; free virtual = 3405
-Ending Placer Task | Checksum: c77376bc
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 105 ; free virtual = 1664
+Ending Placer Task | Checksum: 1c4ca0b73
 
-Time (s): cpu = 00:01:43 ; elapsed = 00:01:04 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 880 ; free virtual = 3415
+Time (s): cpu = 00:01:24 ; elapsed = 00:00:44 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 118 ; free virtual = 1678
 INFO: [Common 17-83] Releasing license: Implementation
-57 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+56 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
-place_design: Time (s): cpu = 00:01:46 ; elapsed = 00:01:05 . Memory (MB): peak = 2293.254 ; gain = 39.672 ; free physical = 879 ; free virtual = 3414
+place_design: Time (s): cpu = 00:01:27 ; elapsed = 00:00:46 . Memory (MB): peak = 2286.629 ; gain = 33.039 ; free physical = 115 ; free virtual = 1679
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.83 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 859 ; free virtual = 3415
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.90 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 128 ; free virtual = 1655
 INFO: [Common 17-1381] The checkpoint '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1/diagramm_wrapper_placed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_io -file diagramm_wrapper_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.12 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 879 ; free virtual = 3424
+report_io: Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.23 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 115 ; free virtual = 1646
 INFO: [runtcl-4] Executing : report_utilization -file diagramm_wrapper_utilization_placed.rpt -pb diagramm_wrapper_utilization_placed.pb
-report_utilization: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.23 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 885 ; free virtual = 3430
+report_utilization: Time (s): cpu = 00:00:00.23 ; elapsed = 00:00:00.29 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 122 ; free virtual = 1651
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file diagramm_wrapper_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.16 . Memory (MB): peak = 2293.254 ; gain = 0.000 ; free physical = 885 ; free virtual = 3430
+report_control_sets: Time (s): cpu = 00:00:00.28 ; elapsed = 00:00:00.34 . Memory (MB): peak = 2286.629 ; gain = 0.000 ; free physical = 146 ; free virtual = 1643
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
@@ -337,160 +335,131 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
-Checksum: PlaceDB: 59c88e99 ConstDB: 0 ShapeSum: 6daae823 RouteDB: 0
+Checksum: PlaceDB: c6073dd1 ConstDB: 0 ShapeSum: fec2cda2 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 3387f36e
+Phase 1 Build RT Design | Checksum: 15cf788f8
 
-Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 2294.895 ; gain = 1.641 ; free physical = 799 ; free virtual = 3349
-Post Restoration Checksum: NetGraph: ff98c88 NumContArr: 238e66e6 Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:08 . Memory (MB): peak = 2297.590 ; gain = 10.961 ; free physical = 110 ; free virtual = 1562
+Post Restoration Checksum: NetGraph: 763a9e5e NumContArr: e6bcea9a Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 
 Phase 2.1 Create Timer
-Phase 2.1 Create Timer | Checksum: 3387f36e
+Phase 2.1 Create Timer | Checksum: 15cf788f8
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2294.895 ; gain = 1.641 ; free physical = 799 ; free virtual = 3349
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2297.590 ; gain = 10.961 ; free physical = 103 ; free virtual = 1563
 
 Phase 2.2 Fix Topology Constraints
-Phase 2.2 Fix Topology Constraints | Checksum: 3387f36e
+Phase 2.2 Fix Topology Constraints | Checksum: 15cf788f8
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2300.883 ; gain = 7.629 ; free physical = 769 ; free virtual = 3320
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2302.578 ; gain = 15.949 ; free physical = 116 ; free virtual = 1528
 
 Phase 2.3 Pre Route Cleanup
-Phase 2.3 Pre Route Cleanup | Checksum: 3387f36e
+Phase 2.3 Pre Route Cleanup | Checksum: 15cf788f8
 
-Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2300.883 ; gain = 7.629 ; free physical = 769 ; free virtual = 3320
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 2302.578 ; gain = 15.949 ; free physical = 116 ; free virtual = 1528
  Number of Nodes with overlaps = 0
 
 Phase 2.4 Update Timing
-Phase 2.4 Update Timing | Checksum: 1f0c5c877
+Phase 2.4 Update Timing | Checksum: fd8460d6
 
-Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 2348.969 ; gain = 55.715 ; free physical = 755 ; free virtual = 3306
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.420 | TNS=-989.019| WHS=-0.143 | THS=-9.934 |
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 119 ; free virtual = 1473
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.767 | TNS=-1219.754| WHS=-0.132 | THS=-10.401|
 
-Phase 2 Router Initialization | Checksum: 275f1b9e1
+Phase 2 Router Initialization | Checksum: c9d96744
 
-Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 2348.969 ; gain = 55.715 ; free physical = 754 ; free virtual = 3305
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:19 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 114 ; free virtual = 1471
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: 192e81fb5
+Phase 3 Initial Routing | Checksum: 1b3bfd30d
 
-Time (s): cpu = 00:00:34 ; elapsed = 00:00:14 . Memory (MB): peak = 2348.969 ; gain = 55.715 ; free physical = 747 ; free virtual = 3298
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:20 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 141 ; free virtual = 1441
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 6497
- Number of Nodes with overlaps = 2076
- Number of Nodes with overlaps = 929
- Number of Nodes with overlaps = 598
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.658 | TNS=-2110.174| WHS=N/A    | THS=N/A    |
+ Number of Nodes with overlaps = 2977
+ Number of Nodes with overlaps = 666
+ Number of Nodes with overlaps = 405
+ Number of Nodes with overlaps = 317
+ Number of Nodes with overlaps = 179
+ Number of Nodes with overlaps = 76
+ Number of Nodes with overlaps = 40
+ Number of Nodes with overlaps = 14
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.943 | TNS=-2959.057| WHS=N/A    | THS=N/A    |
 
-WARNING: [Route 35-447] Congestion is preventing the router from routing all nets. The router will prioritize the successful completion of routing all nets over timing optimizations.
-Phase 4.1 Global Iteration 0 | Checksum: 1201da672
+Phase 4.1 Global Iteration 0 | Checksum: 1b84cf5c8
 
-Time (s): cpu = 00:10:19 ; elapsed = 00:01:52 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 688 ; free virtual = 3315
+Time (s): cpu = 00:03:36 ; elapsed = 00:00:59 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 129 ; free virtual = 1412
 
 Phase 4.2 Global Iteration 1
- Number of Nodes with overlaps = 5648
- Number of Nodes with overlaps = 1440
- Number of Nodes with overlaps = 440
- Number of Nodes with overlaps = 165
- Number of Nodes with overlaps = 67
- Number of Nodes with overlaps = 36
- Number of Nodes with overlaps = 15
- Number of Nodes with overlaps = 7
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.816 | TNS=-1632.291| WHS=N/A    | THS=N/A    |
-
-Phase 4.2 Global Iteration 1 | Checksum: 277514cc7
-
-Time (s): cpu = 00:14:07 ; elapsed = 00:02:50 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 692 ; free virtual = 3308
-
-Phase 4.3 Global Iteration 2
- Number of Nodes with overlaps = 233
- Number of Nodes with overlaps = 217
- Number of Nodes with overlaps = 181
- Number of Nodes with overlaps = 157
- Number of Nodes with overlaps = 110
- Number of Nodes with overlaps = 60
- Number of Nodes with overlaps = 39
+ Number of Nodes with overlaps = 38
+ Number of Nodes with overlaps = 23
  Number of Nodes with overlaps = 22
- Number of Nodes with overlaps = 12
- Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 11
+ Number of Nodes with overlaps = 20
+ Number of Nodes with overlaps = 7
+ Number of Nodes with overlaps = 10
  Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 4
- Number of Nodes with overlaps = 2
- Number of Nodes with overlaps = 1
  Number of Nodes with overlaps = 0
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.754 | TNS=-1616.440| WHS=N/A    | THS=N/A    |
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.961 | TNS=-2913.079| WHS=N/A    | THS=N/A    |
 
-Phase 4.3 Global Iteration 2 | Checksum: e5342deb
+Phase 4.2 Global Iteration 1 | Checksum: 223451458
 
-Time (s): cpu = 00:16:56 ; elapsed = 00:03:34 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 671 ; free virtual = 3309
+Time (s): cpu = 00:03:53 ; elapsed = 00:01:05 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 117 ; free virtual = 1413
+Phase 4 Rip-up And Reroute | Checksum: 223451458
 
-Phase 4.4 Global Iteration 3
- Number of Nodes with overlaps = 394
- Number of Nodes with overlaps = 533
- Number of Nodes with overlaps = 445
- Number of Nodes with overlaps = 359
- Number of Nodes with overlaps = 294
- Number of Nodes with overlaps = 223
- Number of Nodes with overlaps = 145
-Phase 4.4 Global Iteration 3 | Checksum: 1fdf05d2a
-
-Time (s): cpu = 00:21:46 ; elapsed = 00:04:42 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 675 ; free virtual = 3314
-Phase 4 Rip-up And Reroute | Checksum: 1fdf05d2a
-
-Time (s): cpu = 00:21:46 ; elapsed = 00:04:42 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 675 ; free virtual = 3314
+Time (s): cpu = 00:03:53 ; elapsed = 00:01:05 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 117 ; free virtual = 1413
 
 Phase 5 Delay and Skew Optimization
 
 Phase 5.1 Delay CleanUp
 
 Phase 5.1.1 Update Timing
-Phase 5.1.1 Update Timing | Checksum: 10a941452
+Phase 5.1.1 Update Timing | Checksum: 18f351f2f
 
-Time (s): cpu = 00:21:48 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 674 ; free virtual = 3313
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.740 | TNS=-1439.718| WHS=N/A    | THS=N/A    |
+Time (s): cpu = 00:03:55 ; elapsed = 00:01:05 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 117 ; free virtual = 1413
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.828 | TNS=-2815.187| WHS=N/A    | THS=N/A    |
 
  Number of Nodes with overlaps = 0
-Phase 5.1 Delay CleanUp | Checksum: 17291912d
+Phase 5.1 Delay CleanUp | Checksum: 1228228a9
 
-Time (s): cpu = 00:21:49 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 673 ; free virtual = 3312
+Time (s): cpu = 00:03:57 ; elapsed = 00:01:06 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 128 ; free virtual = 1380
 
 Phase 5.2 Clock Skew Optimization
-Phase 5.2 Clock Skew Optimization | Checksum: 17291912d
+Phase 5.2 Clock Skew Optimization | Checksum: 1228228a9
 
-Time (s): cpu = 00:21:49 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 673 ; free virtual = 3312
-Phase 5 Delay and Skew Optimization | Checksum: 17291912d
+Time (s): cpu = 00:03:57 ; elapsed = 00:01:06 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 128 ; free virtual = 1380
+Phase 5 Delay and Skew Optimization | Checksum: 1228228a9
 
-Time (s): cpu = 00:21:49 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 673 ; free virtual = 3312
+Time (s): cpu = 00:03:57 ; elapsed = 00:01:06 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 128 ; free virtual = 1380
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
 
 Phase 6.1.1 Update Timing
-Phase 6.1.1 Update Timing | Checksum: 1b99f264d
+Phase 6.1.1 Update Timing | Checksum: 14fc9c2da
 
-Time (s): cpu = 00:21:51 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 672 ; free virtual = 3310
-INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.740 | TNS=-1423.263| WHS=0.036  | THS=0.000  |
+Time (s): cpu = 00:03:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 126 ; free virtual = 1380
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=-1.828 | TNS=-2709.895| WHS=-0.026 | THS=-0.026 |
 
-Phase 6.1 Hold Fix Iter | Checksum: 207df5bd5
+Phase 6.1 Hold Fix Iter | Checksum: 1929cd6d9
 
-Time (s): cpu = 00:21:51 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 672 ; free virtual = 3310
-Phase 6 Post Hold Fix | Checksum: 207df5bd5
+Time (s): cpu = 00:03:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 126 ; free virtual = 1380
+Phase 6 Post Hold Fix | Checksum: c4124286
 
-Time (s): cpu = 00:21:51 ; elapsed = 00:04:43 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 672 ; free virtual = 3310
+Time (s): cpu = 00:03:59 ; elapsed = 00:01:07 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 126 ; free virtual = 1380
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 31.0004 %
-  Global Horizontal Routing Utilization  = 31.017 %
+  Global Vertical Routing Utilization    = 45.0282 %
+  Global Horizontal Routing Utilization  = 32.9288 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -500,79 +469,82 @@ Router Utilization Summary
   Number of Node Overlaps             = 0
 
 Congestion Report
-North Dir 8x8 Area, Max Cong = 88.8091%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
-   INT_L_X8Y76 -> INT_R_X15Y83
-   INT_L_X16Y76 -> INT_R_X23Y83
-South Dir 4x4 Area, Max Cong = 89.1329%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
-   INT_L_X12Y68 -> INT_R_X15Y71
-   INT_L_X12Y64 -> INT_R_X15Y67
-   INT_L_X16Y64 -> INT_R_X19Y67
-   INT_L_X20Y64 -> INT_R_X23Y67
-East Dir 4x4 Area, Max Cong = 90.3493%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
-   INT_L_X8Y72 -> INT_R_X11Y75
-   INT_L_X8Y68 -> INT_R_X11Y71
-West Dir 8x8 Area, Max Cong = 87.5689%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
-   INT_L_X16Y68 -> INT_R_X23Y75
+North Dir 8x8 Area, Max Cong = 89.0343%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X8Y52 -> INT_R_X15Y59
+   INT_L_X8Y44 -> INT_R_X15Y51
+   INT_L_X16Y44 -> INT_R_X23Y51
+South Dir 8x8 Area, Max Cong = 87.6407%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X8Y52 -> INT_R_X15Y59
+East Dir 4x4 Area, Max Cong = 88.2353%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X8Y56 -> INT_R_X11Y59
+   INT_L_X8Y48 -> INT_R_X11Y51
+West Dir 2x2 Area, Max Cong = 85.2941%, Congestion bounded by tiles (Lower Left Tile -> Upper Right Tile):
+   INT_L_X20Y20 -> INT_R_X21Y21
 
 ------------------------------
 Reporting congestion hotspots
 ------------------------------
 Direction: North
 ----------------
-Congested clusters found at Level 3
-Effective congestion level: 4 Aspect Ratio: 1 Sparse Ratio: 1
+Congested clusters found at Level 2
+Effective congestion level: 4 Aspect Ratio: 0.625 Sparse Ratio: 1.75
 Direction: South
 ----------------
-Congested clusters found at Level 2
-Effective congestion level: 4 Aspect Ratio: 0.8 Sparse Ratio: 0.6875
+Congested clusters found at Level 3
+Effective congestion level: 4 Aspect Ratio: 0.5 Sparse Ratio: 0.5
 Direction: East
 ----------------
-Congested clusters found at Level 1
-Effective congestion level: 3 Aspect Ratio: 0.75 Sparse Ratio: 1.4375
+Congested clusters found at Level 2
+Effective congestion level: 3 Aspect Ratio: 0.666667 Sparse Ratio: 1
 Direction: West
 ----------------
-Congested clusters found at Level 3
-Effective congestion level: 3 Aspect Ratio: 1 Sparse Ratio: 1
+Congested clusters found at Level 0
+Effective congestion level: 1 Aspect Ratio: 1 Sparse Ratio: 1.25
 
-Phase 7 Route finalize | Checksum: 20146ed75
+Phase 7 Route finalize | Checksum: d46be0f6
 
-Time (s): cpu = 00:21:51 ; elapsed = 00:04:44 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 672 ; free virtual = 3310
+Time (s): cpu = 00:04:00 ; elapsed = 00:01:07 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 125 ; free virtual = 1380
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 20146ed75
+Phase 8 Verifying routed nets | Checksum: d46be0f6
 
-Time (s): cpu = 00:21:52 ; elapsed = 00:04:44 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 671 ; free virtual = 3310
+Time (s): cpu = 00:04:00 ; elapsed = 00:01:07 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 124 ; free virtual = 1379
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 189940451
+Phase 9 Depositing Routes | Checksum: 13d10e8fd
 
-Time (s): cpu = 00:21:53 ; elapsed = 00:04:45 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 671 ; free virtual = 3310
+Time (s): cpu = 00:04:01 ; elapsed = 00:01:08 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 115 ; free virtual = 1379
 
 Phase 10 Post Router Timing
-INFO: [Route 35-57] Estimated Timing Summary | WNS=-1.740 | TNS=-1423.263| WHS=0.036  | THS=0.000  |
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 11380e2e1
+
+Time (s): cpu = 00:04:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 112 ; free virtual = 1378
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-1.828 | TNS=-2709.895| WHS=0.055  | THS=0.000  |
 
 WARNING: [Route 35-328] Router estimated timing not met.
 Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
-Phase 10 Post Router Timing | Checksum: 189940451
+Phase 10 Post Router Timing | Checksum: 11380e2e1
 
-Time (s): cpu = 00:21:53 ; elapsed = 00:04:45 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 672 ; free virtual = 3310
+Time (s): cpu = 00:04:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 108 ; free virtual = 1378
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:21:53 ; elapsed = 00:04:45 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 712 ; free virtual = 3351
+Time (s): cpu = 00:04:02 ; elapsed = 00:01:08 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 160 ; free virtual = 1433
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
-76 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+74 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:21:57 ; elapsed = 00:04:47 . Memory (MB): peak = 2376.164 ; gain = 82.910 ; free physical = 712 ; free virtual = 3351
+route_design: Time (s): cpu = 00:04:06 ; elapsed = 00:01:10 . Memory (MB): peak = 2383.977 ; gain = 97.348 ; free physical = 149 ; free virtual = 1433
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.84 . Memory (MB): peak = 2408.180 ; gain = 0.000 ; free physical = 677 ; free virtual = 3341
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:01 . Memory (MB): peak = 2383.977 ; gain = 0.000 ; free physical = 99 ; free virtual = 1432
 INFO: [Common 17-1381] The checkpoint '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1/diagramm_wrapper_routed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file diagramm_wrapper_drc_routed.rpt -pb diagramm_wrapper_drc_routed.pb -rpx diagramm_wrapper_drc_routed.rpx
 Command: report_drc -file diagramm_wrapper_drc_routed.rpt -pb diagramm_wrapper_drc_routed.pb -rpx diagramm_wrapper_drc_routed.rpx
@@ -594,7 +566,7 @@ Running Vector-less Activity Propagation...
 Finished Running Vector-less Activity Propagation
 WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
 Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
-88 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+86 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
 report_power completed successfully
 INFO: [runtcl-4] Executing : report_route_status -file diagramm_wrapper_route_status.rpt -pb diagramm_wrapper_route_status.pb
 INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file diagramm_wrapper_timing_summary_routed.rpt -pb diagramm_wrapper_timing_summary_routed.pb -rpx diagramm_wrapper_timing_summary_routed.rpx -warn_on_violation 
@@ -612,7 +584,108 @@ Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
 Running DRC as a precondition to command write_bitstream
 INFO: [DRC 23-27] Running DRC with 8 threads
-INFO: [Vivado 12-3199] DRC finished with 0 Errors
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][0]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][10]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][11]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][12]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][13]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][14]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][15]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][16]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][17]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][18]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][19]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][1]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][20]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][21]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][22]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][23]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][24]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][25]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][26]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][27]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][28]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][29]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][2]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][30]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][31]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][32]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][32]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][32]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][33]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][33]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][33]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][34]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][34]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][34]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][35]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][35]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][35]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][36]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][36]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][36]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][37]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][37]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][37]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][38]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][38]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][38]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][39]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][39]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][39]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][3]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][40]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][40]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][40]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][41]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][41]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][41]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][42]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][42]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][42]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][43]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][43]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][43]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][44]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][44]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][44]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][45]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][45]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][45]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][46]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][46]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][46]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][47]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][47]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][47]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][48]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][48]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][48]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][49]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][49]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][49]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][4]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][4]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][4]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][50]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][50]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][50]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][51]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][51]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][51]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][52]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][52]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][52]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][53]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][53]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][53]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][54]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][54]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][54]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][55]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][55]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][55]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][56]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][56]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][56]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][57]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][57]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][57]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][58]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][58]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][58]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][59]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][59]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][59]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][5]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][5]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][5]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][60]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][60]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][60]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][61]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][61]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][61]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][62]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][62]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][62]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][63]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][63]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][63]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][6]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][6]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][6]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][7]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][7]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][7]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][8]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][8]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][8]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][9]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][9]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][0][9]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][0]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][0]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][0]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][10]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][10]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][10]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][11]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][11]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][11]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][12]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][12]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][12]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][13]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][13]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][13]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][14]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][14]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][14]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][15]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][15]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][15]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][16]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][16]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][16]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][17]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][17]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][17]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][18]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][18]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][18]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][19]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][19]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][19]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][1]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][1]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][1]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][20]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][20]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][20]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][21]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][21]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][21]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][22]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][22]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][22]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][23]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][23]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][23]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][24]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][24]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][24]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][25]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][25]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][25]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][26]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][26]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][26]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][27]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][27]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][27]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][28]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][28]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][28]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][29]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][29]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][29]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][2]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][2]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][2]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][30]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][30]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][30]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][31]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][31]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][31]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][32]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][32]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][32]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][33]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][33]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][33]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][34]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][34]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][34]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][35]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][35]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][35]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][36]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][36]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][36]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][37]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][37]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][37]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][38]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][38]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][38]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][39]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][39]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][39]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][3]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][3]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][3]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][40]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][40]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][40]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC PDRC-153] Gated clock check: Net diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][41]_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][41]_LDC_i_1/O, cell diagramm_i/ip_sha3v5_0/U0/ip_sha3v5_v1_0_S00_AXI_inst/round_in_reg[0][1][41]_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+INFO: [Common 17-14] Message 'DRC PDRC-153' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1152 Warnings
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
 INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
 Loading data files...
@@ -624,9 +697,8 @@ Creating bitstream...
 Writing bitstream ./diagramm_wrapper.bit...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK part without a full Vivado license. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
-INFO: [Common 17-186] '/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1/usage_statistics_webtalk.xml' has been successfully sent to Xilinx on Fri Jun 14 14:14:16 2019. For additional details about this file, please refer to the WebTalk help file at /opt/Xilinx/Vivado/2018.2/doc/webtalk_introduction.html.
 INFO: [Common 17-83] Releasing license: Implementation
-107 Infos, 4 Warnings, 1 Critical Warnings and 0 Errors encountered.
+105 Infos, 102 Warnings, 1 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2753.781 ; gain = 257.559 ; free physical = 569 ; free virtual = 3236
-INFO: [Common 17-206] Exiting Vivado at Fri Jun 14 14:14:16 2019...
+write_bitstream: Time (s): cpu = 00:00:28 ; elapsed = 00:00:16 . Memory (MB): peak = 2757.680 ; gain = 251.598 ; free physical = 433 ; free virtual = 1193
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 15 01:06:52 2019...

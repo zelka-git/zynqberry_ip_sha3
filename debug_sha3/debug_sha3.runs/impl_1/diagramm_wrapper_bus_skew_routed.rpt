@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Fri Jun 14 14:13:57 2019
+| Date         : Sat Jun 15 01:06:36 2019
 | Host         : anzThink running 64-bit Ubuntu 16.04.6 LTS
 | Command      : report_bus_skew -warn_on_violation -file diagramm_wrapper_bus_skew_routed.rpt -pb diagramm_wrapper_bus_skew_routed.pb -rpx diagramm_wrapper_bus_skew_routed.rpx
 | Design       : diagramm_wrapper

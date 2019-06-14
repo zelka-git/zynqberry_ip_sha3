@@ -71,9 +71,9 @@ vlog -work xil_defaultlib -64 -incr "+incdir+../../../../debug_sha3.srcs/sources
 "../../../bd/diagramm/ip/diagramm_processing_system7_0_0/sim/diagramm_processing_system7_0_0.v" \
 
 vcom -work xil_defaultlib -64 -93 \
-"../../../bd/diagramm/ipshared/195f/hdl/ip_sha3v5_v1_0_S00_AXI.vhd" \
-"../../../bd/diagramm/ipshared/195f/src/user_types.vhd" \
-"../../../bd/diagramm/ipshared/195f/hdl/ip_sha3v5_v1_0.vhd" \
+"../../../bd/diagramm/ipshared/867b/hdl/ip_sha3v5_v1_0_S00_AXI.vhd" \
+"../../../bd/diagramm/ipshared/867b/src/user_types.vhd" \
+"../../../bd/diagramm/ipshared/867b/hdl/ip_sha3v5_v1_0.vhd" \
 "../../../bd/diagramm/ip/diagramm_ip_sha3v5_0_0/sim/diagramm_ip_sha3v5_0_0.vhd" \
 
 vcom -work lib_cdc_v1_0_2 -64 -93 \
