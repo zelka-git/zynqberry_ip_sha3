@@ -92,12 +92,12 @@ int main()
 //	u32 t2=IP_SHA3V5_mReadReg(BaseAddress, 350*4);
 //	printf("reg350=%x\n",t2);
 	IP_SHA3V5_mWriteReg(BaseAddress, 2*4, 0x00000000);//start=0
-	u32 t = IP_SHA3V5_mReadReg(BaseAddress, 49*4);
-	printf("reg49=%x\n",t);
+//	u32 t = IP_SHA3V5_mReadReg(BaseAddress, 49*4);
+//	printf("reg49=%x\n",t);
 //	print("Start programm=1\n");
 	IP_SHA3V5_mWriteReg(BaseAddress, 2*4, 0xFFFFFFFF);//start=1
-	t1=IP_SHA3V5_mReadReg(BaseAddress, 48*4);
-	printf("reg48=%x\n",t1);
+//	t1=IP_SHA3V5_mReadReg(BaseAddress, 48*4);
+//	printf("reg48=%x\n",t1);
 //	t2=IP_SHA3V5_mReadReg(BaseAddress, 350*4);
 //	printf("reg350=%x\n",t2);
 //	for (int i=0;i<1000;i++){

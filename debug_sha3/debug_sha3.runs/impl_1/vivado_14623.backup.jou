@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Jun 15 11:50:12 2019
+# Process ID: 14623
+# Current directory: /home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1
+# Command line: vivado -log diagramm_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source diagramm_wrapper.tcl -notrace
+# Log file: /home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1/diagramm_wrapper.vdi
+# Journal file: /home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source diagramm_wrapper.tcl -notrace

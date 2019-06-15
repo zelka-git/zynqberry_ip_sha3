@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="diagramm_ip_sha3v5_0_0_synth_1" LaunchDir="/home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.runs/diagramm_ip_sha3v5_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

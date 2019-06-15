@@ -1,132 +1,14 @@
-01:10:21 **** Incremental Build of configuration Debug for project test ****
+12:25:24 **** Incremental Build of configuration Debug for project test ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Цель «main-build» не требует выполнения команд.
-01:10:35 **** Incremental Build of configuration Debug for project test ****
+12:26:08 **** Incremental Build of configuration Debug for project test ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  
 make: Цель «main-build» не требует выполнения команд.
-01:11:45 **** Incremental Build of configuration Debug for project test ****
-make pre-build main-build 
-a9-linaro-pre-build-step
- 
-make: Цель «main-build» не требует выполнения команд.
-01:12:14 **** Auto Build of configuration Debug for project test ****
-make pre-build main-build 
-a9-linaro-pre-build-step
- 
-Building file: ../src/helloworld.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:81:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-   printf("%x ",IP_SHA3V5_mReadReg(BaseAddress, 4*4+i*4));
-           ~^
-           %lx
-../src/helloworld.c:96:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg49=%x\n",t);
-                ~^
-                %lx
-../src/helloworld.c:100:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg48=%x\n",t1);
-                ~^
-                %lx
-../src/helloworld.c:170:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-   printf("%x\n",IP_SHA3V5_mReadReg(BaseAddress, 40*4+ i*4));
-           ~^
-           %lx
-../src/helloworld.c:173:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg48=%x\n",t1);
-                ~^
-                %lx
-../src/helloworld.c:175:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg49=%x\n",t2);
-                ~^
-                %lx
-../src/helloworld.c:180:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg49=%x\n",t2);
-                ~^
-                %lx
-../src/helloworld.c:182:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg48=%x\n",t1);
-                ~^
-                %lx
-../src/helloworld.c:62:11: warning: unused variable 'out' [-Wunused-variable]
-  uint64_t out;
-           ^~~
-Finished building: ../src/helloworld.c
- 
-Building target: test.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: test.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size test.elf  |tee "test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  71728	   2580	  23328	  97636	  17d64	test.elf
-Finished building: test.elf.size
- 
-01:12:29 **** Incremental Build of configuration Debug for project test ****
-make pre-build main-build 
-a9-linaro-pre-build-step
- 
-make: Цель «main-build» не требует выполнения команд.
-01:13:10 **** Auto Build of configuration Debug for project test ****
-make pre-build main-build 
-a9-linaro-pre-build-step
- 
-Building file: ../src/helloworld.c
-Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-../src/helloworld.c: In function 'main':
-../src/helloworld.c:96:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg49=%x\n",t);
-                ~^
-                %lx
-../src/helloworld.c:100:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg48=%x\n",t1);
-                ~^
-                %lx
-../src/helloworld.c:170:12: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-   printf("%x\n",IP_SHA3V5_mReadReg(BaseAddress, 40*4+ i*4));
-           ~^
-           %lx
-../src/helloworld.c:173:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg48=%x\n",t1);
-                ~^
-                %lx
-../src/helloworld.c:175:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg49=%x\n",t2);
-                ~^
-                %lx
-../src/helloworld.c:180:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg49=%x\n",t2);
-                ~^
-                %lx
-../src/helloworld.c:182:17: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32 {aka long unsigned int}' [-Wformat=]
-  printf("reg48=%x\n",t1);
-                ~^
-                %lx
-../src/helloworld.c:62:11: warning: unused variable 'out' [-Wunused-variable]
-  uint64_t out;
-           ^~~
-Finished building: ../src/helloworld.c
- 
-Building target: test.elf
-Invoking: ARM v7 gcc linker
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../test_bsp/ps7_cortexa9_0/lib -o "test.elf"  ./src/helloworld.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-Finished building target: test.elf
- 
-Invoking: ARM v7 Print Size
-arm-none-eabi-size test.elf  |tee "test.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  71344	   2580	  23328	  97252	  17be4	test.elf
-Finished building: test.elf.size
- 
-01:13:34 **** Incremental Build of configuration Debug for project test ****
+13:39:25 **** Incremental Build of configuration Debug for project test ****
 make pre-build main-build 
 a9-linaro-pre-build-step
  

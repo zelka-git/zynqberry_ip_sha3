@@ -1,7 +1,7 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-// Date        : Sat Jun 15 01:02:17 2019
+// Date        : Sat Jun 15 12:16:33 2019
 // Host        : anzThink running 64-bit Ubuntu 16.04.6 LTS
 // Command     : write_verilog -force -mode synth_stub
 //               /home/anzhelika/projekt/diplom/debug_progectv5/debug_sha3/debug_sha3.srcs/sources_1/bd/diagramm/ip/diagramm_ip_sha3v5_0_0/diagramm_ip_sha3v5_0_0_stub.v
